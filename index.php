@@ -7,7 +7,8 @@
 
   $host = 'localhost';
   $ignore = array( 'html' );
-  $ports = array(3000, 3001, 3030, 3031, 8080, 8081);
+  /* Ports to scan for available services */
+  $ports = array(3000, 3001, 3030, 3031, 8080, 8081, 9000, 9001);
 
   $dirs = glob( dirname( __FILE__ ) . "/*", GLOB_ONLYDIR );
 
